@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perfil de Miguel Perez</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white min-h-screen flex items-center justify-center p-6">
+
+  <div class="w-full max-w-6xl space-y-16">
+
+    <!-- Sección de Perfil -->
+    <section class="bg-gray-950 rounded-2xl shadow-2xl p-10 relative overflow-hidden">
+      <!-- Fondo decorativo -->
+      <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] pointer-events-none"></div>
+
+      <div class="relative z-10 grid md:grid-cols-2 gap-8 items-center">
+        <!-- Perfil -->
+        <div class="text-center md:text-left">
+          <h1 class="text-4xl font-extrabold text-cyan-400">Miguel Pérez</h1>
+          <p class="mt-2 text-lg text-gray-300">Ingeniero en Tecnologías Computacionales</p>
+          
+          
+          <div class="mt-6 flex gap-4 justify-center md:justify-start">
+            <a href="https://www.linkedin.com" target="_blank" class="bg-cyan-500 hover:bg-cyan-600 px-4 py-2 rounded-lg font-semibold transition">LinkedIn</a>
+            <a href="mailto:miguel.perez@email.com" class="border border-cyan-500 text-cyan-400 px-4 py-2 rounded-lg hover:bg-cyan-500 hover:text-white transition">Contáctame</a>
+          </div>
+        </div>
+
+        <!-- Imagen -->
+        <div class="flex justify-center md:justify-end">
+          <div class="w-48 h-48 rounded-full overflow-hidden border-4 border-cyan-500 shadow-lg">
+            <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="Foto de Miguel" class="w-full h-full object-cover">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección del Servidor Web -->
+    <section class="bg-gray-900 rounded-2xl shadow-2xl border border-cyan-600 p-10 relative overflow-hidden">
+      <!-- Decoración interna -->
+      <div class="absolute inset-0 bg-gradient-to-tr from-cyan-500/10 to-transparent opacity-30 pointer-events-none"></div>
+
+      <div class="relative z-10 max-w-xl mx-auto text-center">
+        <h2 class="text-3xl font-bold text-cyan-400 mb-4">Servidor Web Local</h2>
+        <p class="text-gray-300 mb-6">
+          Desarrollado para pruebas internas, este servidor permite acceso local rápido, seguro y eficiente a aplicaciones y recursos.
+        </p>
+
+        <ul class="text-sm text-gray-400 space-y-2 mb-6 text-left max-w-sm mx-auto">
+          <li>🌐 <span class="text-white">Dirección IP:</span> 192.168.10.3</li>
+          <!-- <li>📁 <span class="text-white">Directorio raíz:</span> /var/www/html</li> -->
+          <li>🔐 <span class="text-white">Protocolo:</span> HTTP</li>
+          <li>⚙️ <span class="text-white">Estado actual:</span> <span class="text-green-400 font-semibold">Activo</span></li>
+        </ul>
+
+        <a href="http://192.168.10.3" target="_blank" class="inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-semibold px-6 py-2 rounded-lg transition">
+          Acceder al servidor
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm text-gray-500">
+      © 2025 Miguel Perez. Todos los derechos reservados.
+    </footer>
+
+  </div>
+
+</body>
+</html>
